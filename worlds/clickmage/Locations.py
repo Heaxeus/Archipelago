@@ -14,26 +14,26 @@ def get_location_names() -> dict[str, int]:
     return names
 
 blueprint_locations = {
-    "Portal Blueprint": LocData(101, "Trader"),
-    "Water Well Blueprint": LocData(102, "Trader"),
-    "Smelter Blueprint": LocData(103, "Trader"),
-    "Charcoal Blueprint": LocData(104, "Trader"),
-    "Saw Blueprint": LocData(105, "Trader"),
-    "Storage Blueprint": LocData(106, "Trader"),
-    "Forge Blueprint": LocData(107, "Trader"),
-    "Phial Blueprint": LocData(108, "Trader"),
-    "Steel Processing Blueprint": LocData(109, "Trader"),
-    "Copper Processing Blueprint": LocData(110, "Trader"),
-    "Alchemy Table Blueprint": LocData(111, "Trader"),
-    "Catalyst Blueprint": LocData(112, "Trader")
+    "Portal Blueprint": LocData(101, "Island"),
+    "Water Well Blueprint": LocData(102, "Island"),
+    "Smelter Blueprint": LocData(103, "Island"),
+    "Charcoal Blueprint": LocData(104, "Island"),
+    "Saw Blueprint": LocData(105, "Island"),
+    "Storage Blueprint": LocData(106, "Island"),
+    "Forge Blueprint": LocData(107, "Island"),
+    "Phial Blueprint": LocData(108, "Island"),
+    "Steel Processing Blueprint": LocData(109, "Island"),
+    "Copper Processing Blueprint": LocData(110, "Island"),
+    "Alchemy Table Blueprint": LocData(111, "Island"),
+    "Catalyst Blueprint": LocData(112, "Island")
 }
 
 upgrade_locations = {
-    "Click Hardness 1": LocData(201, "Obelisk"),
+    "Click Hardness 1": LocData(201, "Island"),
     "Click Hardness 2": LocData(202, "Obelisk"),
     "Click Hardness 3": LocData(203, "Obelisk"),
     "Click Hardness 4": LocData(204, "Obelisk"),
-    "Click Power 1": LocData(205, "Obelisk"),
+    "Click Power 1": LocData(205, "Island"),
     "Click Power 2": LocData(206, "Obelisk"),
     "Click Power 3": LocData(207, "Obelisk"),
     "Click Power 4": LocData(208, "Obelisk"),
@@ -42,7 +42,7 @@ upgrade_locations = {
     "Click Power 7": LocData(211, "Obelisk"),
     "Click Power 8": LocData(212, "Obelisk"),
     "Click Power 9": LocData(213, "Obelisk"),
-    "Hand Size 1": LocData(214, "Obelisk"),
+    "Hand Size 1": LocData(214, "Island"),
     "Hand Size 2": LocData(215, "Obelisk"),
     "Hand Size 3": LocData(216, "Obelisk"),
     "Hand Size 4": LocData(217, "Obelisk"),
