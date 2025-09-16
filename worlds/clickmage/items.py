@@ -1,6 +1,6 @@
 from BaseClasses import Item, ItemClassification
 from .types import ItemData, ClickMageItem
-from .locations import get_total_locations
+from .locations import get_total_locations, location_table
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -10,6 +10,9 @@ def create_itempool(world: "ClickMageWorld") -> list[Item]:
     itempool: list[Item] = []
     victory = create_item(world, "Victory")
     world.multiworld.get_location("Portal Stage 13", world.player).place_locked_item(victory)
+    for item in item_table.keys():
+        if item != "Victory":
+            itempool.append(create_item(world, item))
     itempool += create_junk_items(world, get_total_locations(world) - len(itempool) - 1)
     return itempool
 
