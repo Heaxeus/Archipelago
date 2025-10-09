@@ -51,7 +51,7 @@ blueprint_items = {
     "Smelter Blueprint": ItemData(103, ItemClassification.progression),
     "Charcoal Blueprint": ItemData(104, ItemClassification.progression),
     "Saw Blueprint": ItemData(105, ItemClassification.progression),
-    "Storage Blueprint": ItemData(106, ItemClassification.progression),
+    "Storage Blueprint": ItemData(106, ItemClassification.useful),
     "Forge Blueprint": ItemData(107, ItemClassification.progression),
     "Phial Blueprint": ItemData(108, ItemClassification.progression),
     "Steel Processing Blueprint": ItemData(109, ItemClassification.progression),
