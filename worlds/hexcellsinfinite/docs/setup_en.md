@@ -3,7 +3,7 @@
 ## Required Software
 
 - [Hexcells Infinite](https://store.steampowered.com/app/304410/Hexcells_Infinite/)
-- [Hexcells Infinite Randomizer Plugin](https://github.com/Heaxeus/HexcellsInfiniteAP/releases/tag/Release)
+- [Hexcells Infinite Randomizer Plugin](https://github.com/Heaxeus/HexcellsInfiniteAP/releases)
 - [BepInEx win_x86 v5](https://github.com/BepInEx/BepInEx/releases)
 - The built-in Archipelago client, which can be installed [here](https://github.com/ArchipelagoMW/Archipelago/releases)
 
