@@ -12,16 +12,16 @@
 ### IMPORTANT!
 ### Move/Delete existing slotAP.save files in the Hexcells Infinite/saves directory before connecting to a new multiworld!
 
-1. Run the game once to load all necessary game files, then close the game.
+1. Install and run Hexcells Infinite once to load all necessary game files. Close out of the game.
 
-2. Install BepInEx by dragging the files over to the Hexcells Infinite game directory.
+2. Download [BepInEx win_x86 v5](https://github.com/BepInEx/BepInEx/releases). This needs to be x86, NOT x64!
 
-3. Run the game once to load all necessary BepInEx files, then close the game.
+3. Extract BepInEx to your game folder (steamapps/common/Hexcells Infinite)
 
-4. Put the Hexcells Infinite Randomizer plugin into the BepInEx/plugins folder.
+4. Run the game once, for BepInEx to install properly. Close the game.
 
-5. Run the game again, it should say "Check the APInfo file". Close the game.
+5. Extract the Hexcells Infinite Randomizer folder into the BepInEx/plugins folder.
 
-6. Open the APInfo file in the game directory, and enter in the connection info
+6. Run the game to generate the APInfo file in your game folder, then edit the file to match your Archipelago lobby settings.
 
-7. Launch the game, and you should see "AP Connected"! Have fun!
+7. Restart the game after editing the APInfo file, and have fun!
